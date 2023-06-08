@@ -16,7 +16,7 @@ namespace Desafio
             Console.WriteLine("Olá! Bem-vindo ao verificador de senhas seguras!");
             Console.WriteLine("(Caso queira parar de digitar, digite sair)");
             Console.WriteLine();
-            //a
+
             while (true)
             {
                 Console.Write("Insira suas senhas: (Digite uma em cada linha)");
@@ -26,13 +26,6 @@ namespace Desafio
                     {
                         senha = Console.ReadLine();
                         Console.WriteLine();
-                        while (senha == "")
-                        {
-                            Console.WriteLine();
-                            Console.Write("Sua senha não pode ser vazia. Digite algo para a senha: ");
-                            senha = Console.ReadLine();
-                            Console.WriteLine();
-                        }
                         break;
                     }
                     catch
@@ -40,7 +33,13 @@ namespace Desafio
                         Console.WriteLine();
                         Console.Write("Insira sua senha novamente: ");
                     }
-                   
+                    while (senha == string.Empty)
+                    {
+                        Console.WriteLine();
+                        Console.Write("Sua senha não pode ser vazia. Digite algo para a senha: ");
+                        senha = Console.ReadLine();
+                        Console.WriteLine();
+                    }
                 }
                 if (senha == "sair")
                     break;

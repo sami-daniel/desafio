@@ -1,0 +1,8 @@
+C:\Users\Sami\Desafio\Desafio\bin\Debug\Desafio.exe.config
+C:\Users\Sami\Desafio\Desafio\bin\Debug\Desafio.exe
+C:\Users\Sami\Desafio\Desafio\bin\Debug\Desafio.pdb
+C:\Users\Sami\Desafio\Desafio\obj\Debug\Desafio.csproj.AssemblyReference.cache
+C:\Users\Sami\Desafio\Desafio\obj\Debug\Desafio.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sami\Desafio\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\Sami\Desafio\Desafio\obj\Debug\Desafio.exe
+C:\Users\Sami\Desafio\Desafio\obj\Debug\Desafio.pdb

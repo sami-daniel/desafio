@@ -22,7 +22,6 @@ namespace Desafio
             bool PossuiSimbolo = false;
             bool PossuiLetraMaiuscula = false;
             bool PossuiLetraMinuscula = false;
-            bool PossuiDigito = false;
 
             if (senha.Length >= 7)
             {
@@ -36,10 +35,8 @@ namespace Desafio
                     PossuiLetraMinuscula = true;
                 else if (ListaDeSimbolos.Contains(caractere))
                     PossuiSimbolo = true;
-                else if(char.IsDigit(caractere))
-                    PossuiDigito = true;
             }
-            if (PossuiSeteCaracteres && PossuiSimbolo && PossuiLetraMaiuscula && PossuiLetraMinuscula && PossuiDigito)
+            if (PossuiSeteCaracteres && PossuiSimbolo && PossuiLetraMaiuscula && PossuiLetraMinuscula)
             {
                 ConjuntoSenhasSeguras.Add(senha);
             }
